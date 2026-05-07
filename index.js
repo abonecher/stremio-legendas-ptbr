@@ -11,7 +11,8 @@ const manifest = {
     description: "Busca legendas em Português do Brasil de múltiplas fontes abertas e gratuitas.",
     resources: ["subtitles"],
     types: ["movie", "series"],
-    idPrefixes: ["tt"] // tt é o prefixo de IDs do IMDb
+    idPrefixes: ["tt"], // tt é o prefixo de IDs do IMDb
+    catalogs: []
 };
 
 const builder = new addonBuilder(manifest);
